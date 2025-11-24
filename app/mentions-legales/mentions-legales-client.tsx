@@ -169,8 +169,8 @@ export default function MentionsLegalesClient() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Droit applicable et juridiction compétente</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Tout litige en relation avec l'utilisation du site www.marquesvazplaco.fr est soumis au droit français. 
-                  Il est fait attribution exclusive de juridiction aux tribunaux compétents de Marseille.
+                  Tout litige en relation avec l'utilisation du site www.montebat.fr est soumis au droit français. 
+                  Il est fait attribution exclusive de juridiction aux tribunaux compétents de France.
                 </p>
               </div>
             </div>

@@ -128,7 +128,7 @@ export default function ServicePage({
     "description": description,
     "provider": {
       "@type": "LocalBusiness",
-      "name": "MARQUES VAZ PLACO",
+      "name": "MONTEBAT",
       "telephone": contactInfo.phone,
       "email": contactInfo.email,
       "address": {
