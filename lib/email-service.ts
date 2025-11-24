@@ -228,8 +228,8 @@ Email automatique généré le ${new Date().toLocaleString('fr-FR')}
     const msg = {
       to: recipientEmail,
       from: {
-        email: 'amiltonvazmarques@gmail.com',
-        name: 'MARQUES VAZ PLACO - Notifications'
+        email: 'contact@montebat.fr',
+        name: 'MONTEBAT - Notifications'
       },
       subject: `🎯 Nouveau Prospect : ${prospectData.prenom} ${prospectData.nom} - ${prospectData.source === 'hero' ? 'Formulaire' : 'Popup'}`,
       text: textContent,
