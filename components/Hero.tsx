@@ -118,7 +118,7 @@ export default function Hero({
   };
 
   return (
-    <section className="relative min-h-screen md:min-h-[calc(100vh-80px)] md:h-[calc(100vh-81px)] flex items-center overflow-hidden md:py-0 py-40">
+    <section className="hero-container relative min-h-[918px] md:min-h-[max(918px,calc(100vh-80px))] md:h-[max(918px,calc(100vh-81px))] flex items-center overflow-hidden py-20 md:py-0 hero-padding-responsive">
       {/* Background */}
       <div 
         className="absolute inset-0 z-0"
