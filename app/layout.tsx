@@ -5,32 +5,32 @@ import Footer from "../components/Footer";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "MARQUES VAZ PLACO - Plaquiste Professionnel en Provence-Alpes-Côte d'Azur",
-  description: "MARQUES VAZ PLACO, expert plaquiste en Provence-Alpes-Côte d'Azur. Spécialisé en cloisons sèches, doublages et faux plafonds depuis 2015. Devis gratuit et intervention rapide à Marseille et environs.",
-  keywords: "plaquiste Marseille, cloisons sèches PACA, doublage isolation Provence, faux plafond Bouches-du-Rhône, MARQUES VAZ PLACO, plâtrerie Marseille, devis gratuit, artisan qualifié, travaux placo, BTP PACA",
-  authors: [{ name: "AMILTON VAZ" }],
-  creator: "MARQUES VAZ PLACO",
-  publisher: "MARQUES VAZ PLACO",
+  title: "MONTEBAT - Entrepreneur du Bâtiment en France",
+  description: "MONTEBAT, entrepreneur du bâtiment en France. Spécialisé en gros œuvre, carrelage, ravalement, couverture et charpente depuis 5 ans. Devis gratuit et intervention partout en France.",
+  keywords: "entrepreneur bâtiment France, gros œuvre, carrelage, ravalement façade, couverture toiture, charpente, MONTEBAT, travaux bâtiment, devis gratuit, artisan qualifié, BTP France",
+  authors: [{ name: "JOSE VARELA" }],
+  creator: "MONTEBAT",
+  publisher: "MONTEBAT",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://marquesvazplaco.fr"),
+  metadataBase: new URL("https://montebat.fr"),
   alternates: {
-    canonical: "https://marquesvazplaco.fr",
+    canonical: "https://montebat.fr",
   },
   openGraph: {
-    title: "MARQUES VAZ PLACO - Expert Plaquiste en Provence-Alpes-Côte d'Azur",
-    description: "MARQUES VAZ PLACO, spécialiste plaquiste, cloisons sèches, doublages et faux plafonds. Intervention rapide en PACA. Devis gratuit et personnalisé.",
-    url: "https://marquesvazplaco.fr",
-    siteName: "MARQUES VAZ PLACO - Plaquiste Professionnel",
+    title: "MONTEBAT - Entrepreneur du Bâtiment en France",
+    description: "MONTEBAT, entrepreneur du bâtiment, gros œuvre, carrelage, ravalement, couverture et charpente. Intervention partout en France. Devis gratuit et personnalisé.",
+    url: "https://montebat.fr",
+    siteName: "MONTEBAT - Entrepreneur du Bâtiment",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "MARQUES VAZ PLACO - Plaquiste en Provence-Alpes-Côte d'Azur",
+        alt: "MONTEBAT - Entrepreneur du Bâtiment en France",
       },
     ],
     locale: "fr_FR",
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "MARQUES VAZ PLACO - Expert Plaquiste",
-    description: "Spécialiste plaquiste, cloisons sèches, doublages et faux plafonds en Provence-Alpes-Côte d'Azur. Devis gratuit.",
+    title: "MONTEBAT - Entrepreneur du Bâtiment",
+    description: "Entrepreneur du bâtiment, gros œuvre, carrelage, ravalement, couverture et charpente en France. Devis gratuit.",
     images: ["/og-image.jpg"],
   },
   robots: {

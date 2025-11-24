@@ -1,0 +1,41 @@
+{
+  "id": "wZDTBhcgCqbwEB1yktnT",
+  "informationsPersonnelles": {
+    "nom": "Varela",
+    "prenom": "Jose",
+    "email": "",
+    "telephone": "0695525372",
+    "etape": "R1",
+    "date": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1763976334,
+      "nanoseconds": 249000000
+    },
+    "rgpd": false,
+    "commentaire": ""
+  },
+  "informationsEntreprise": {
+    "nomEntreprise": "",
+    "entreprise": "Montebat",
+    "metier": "Gros oeuvre, carrelage, ravalement, couverture, charpente",
+    "secteurActivite": "78 toute la france",
+    "raisonSociale": "Auto-entrepreneur",
+    "anneeCreation": "5",
+    "nombreCollaborateurs": "2-5",
+    "prestation": "",
+    "rayonIntervention": "",
+    "certifications": "",
+    "garanties": "Décennale",
+    "partenaires": ""
+  },
+  "siteWebEtCommunication": {
+    "siteWebExistant": false,
+    "siteWebURL": "",
+    "logo": false,
+    "sitePret": false
+  },
+  "metadonnees": {
+    "dateExport": "2025-11-24T13:18:16.704Z",
+    "exportePar": "Admin Trouver Mon Chantier"
+  }
+}

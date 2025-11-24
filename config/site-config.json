@@ -1,16 +1,16 @@
 {
   "company": {
-    "name": "MARQUES VAZ PLACO",
-    "legalName": "Marques vaz placo - Entreprise de plaquiste",
-    "address": "Provence-Alpes-Côte d'Azur, Marseille",
-    "phone": "06 59 76 49 95",
-    "email": "amiltonvazmarques@gmail.com",
-    "siret": "Auto-entrepreneur",
-    "ceo": "AMILTON VAZ"
+    "name": "MONTEBAT",
+    "legalName": "Montebat - Entreprise du bâtiment",
+    "address": "78 - Toute la France",
+    "phone": "06 95 52 53 72",
+    "email": "contact@montebat.fr",
+    "siret": "Entrepreneur du bâtiment",
+    "ceo": "JOSE VARELA"
   },
   "hero": {
-    "title": "MARQUES VAZ PLACO - Spécialiste plaquiste en Provence-Alpes-Côte d'Azur",
-    "subtitle": "Expert du secteur du BTP spécialisé en plâtrerie et cloisons sèches depuis 2015. Votre spécialiste plaquiste de confiance pour tous vos projets de construction et rénovation dans la région de Marseille et ses environs.",
+    "title": "MONTEBAT - Spécialiste du bâtiment en France",
+    "subtitle": "Expert du secteur du BTP spécialisé en gros œuvre, carrelage, ravalement, couverture et charpente depuis 5 ans. Votre entrepreneur du bâtiment de confiance pour tous vos projets de construction et rénovation partout en France.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "",
@@ -20,9 +20,9 @@
     "sections": [
       {
         "smallTitle": "Notre expertise",
-        "title": "Spécialiste plaquiste professionnel",
-        "subtitle": "Plus de 10 ans d'expérience dans le secteur du BTP",
-        "content": "Notre entreprise, MARQUES VAZ PLACO, est spécialisée dans les travaux de plâtrerie depuis 2015. Nous mettons notre expertise au service de vos projets de construction et rénovation, qu'il s'agisse de cloisons sèches, doublages, faux plafonds ou finitions. Notre mission : apporter un travail soigné, durable et de qualité, dans le respect des délais et des normes en Provence-Alpes-Côte d'Azur.",
+        "title": "Spécialiste du bâtiment professionnel",
+        "subtitle": "5 ans d'expérience dans le secteur du BTP",
+        "content": "Notre entreprise, MONTEBAT, est spécialisée dans les travaux du bâtiment depuis 5 ans. Nous mettons notre expertise au service de vos projets de construction et rénovation, qu'il s'agisse de gros œuvre, carrelage, ravalement, couverture ou charpente. Notre mission : apporter un travail soigné, durable et de qualité, dans le respect des délais et des normes partout en France.",
         "image": "/maison-work.png",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
@@ -32,9 +32,9 @@
       },
       {
         "smallTitle": "Nos spécialités",
-        "title": "Plâtrerie et cloisons sèches",
-        "subtitle": "Expert en doublages et faux plafonds",
-        "content": "Ce qui nous distingue, c'est notre expertise technique en plâtrerie, notre rigueur et notre relation de confiance avec nos clients. Chaque chantier est pour nous une nouvelle occasion de prouver que les travaux de placo peuvent allier qualité et modernité. Nous maîtrisons parfaitement les normes de sécurité et de construction en vigueur dans le secteur de la plâtrerie.",
+        "title": "Gros œuvre et second œuvre",
+        "subtitle": "Expert en carrelage, ravalement, couverture et charpente",
+        "content": "Ce qui nous distingue, c'est notre expertise technique polyvalente dans le bâtiment, notre rigueur et notre relation de confiance avec nos clients. Chaque chantier est pour nous une nouvelle occasion de prouver que les travaux du bâtiment peuvent allier qualité et modernité. Nous maîtrisons parfaitement les normes de sécurité et de construction en vigueur dans tous nos domaines d'intervention.",
         "image": "/plomberie.png",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
@@ -46,51 +46,51 @@
   },
   "gallery": {
     "title": "Nos Réalisations",
-    "subtitle": "Découvrez nos projets de plâtrerie, cloisons sèches et doublages en Provence-Alpes-Côte d'Azur",
+    "subtitle": "Découvrez nos projets de gros œuvre, carrelage, ravalement, couverture et charpente partout en France",
     "initialDisplayCount": 4,
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&h=800&fit=crop",
-        "alt": "Cloisons sèches",
-        "title": "Pose cloisons sèches - Marseille (13)"
+        "alt": "Gros œuvre",
+        "title": "Travaux gros œuvre - France (78)"
       },
       {
         "src": "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=800&h=800&fit=crop",
-        "alt": "Doublage placo",
-        "title": "Doublage isolation - PACA"
+        "alt": "Carrelage",
+        "title": "Pose carrelage - France"
       },
       {
         "src": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=800&fit=crop",
-        "alt": "Faux plafond",
-        "title": "Faux plafond suspendu - Bouches-du-Rhône (13)"
+        "alt": "Ravalement",
+        "title": "Ravalement façade - France"
       },
       {
         "src": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=800&fit=crop",
-        "alt": "Plâtrerie moderne",
-        "title": "Travaux plâtrerie - Provence-Alpes-Côte d'Azur"
+        "alt": "Couverture",
+        "title": "Travaux couverture - France"
       },
       {
         "src": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&h=800&fit=crop",
-        "alt": "Finitions placo",
-        "title": "Finitions plâtrerie - Marseille"
+        "alt": "Charpente",
+        "title": "Charpente bois - France"
       },
       {
         "src": "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=800&h=800&fit=crop",
-        "alt": "Aménagement intérieur",
-        "title": "Aménagement cloisons - PACA"
+        "alt": "Rénovation complète",
+        "title": "Rénovation complète - France"
       }
     ]
   },
   "contact": {
     "title": "Contactez-nous",
-    "subtitle": "Parlons de votre projet ensemble"
+    "subtitle": "Parlons de votre projet de gros œuvre, carrelage, ravalement, couverture ou charpente partout en France"
   },
   "team": {
     "members": [
       {
-        "name": "Amilton Vaz",
-        "position": "Fondateur & Expert Plaquiste",
-        "description": "Passionné par le secteur du BTP, j'ai créé mon entreprise de plâtrerie en 2015. Spécialisé en cloisons sèches, doublages et faux plafonds, je mets mon expertise technique au service de vos projets en Provence-Alpes-Côte d'Azur. Mon engagement : vous offrir un service de qualité, dans le respect des délais et avec un souci constant du détail.",
+        "name": "Jose Varela",
+        "position": "Fondateur & Expert du Bâtiment",
+        "description": "Passionné par le secteur du BTP, j'ai créé mon entreprise du bâtiment il y a 5 ans. Spécialisé en gros œuvre, carrelage, ravalement, couverture et charpente, je mets mon expertise technique au service de vos projets partout en France. Mon engagement : vous offrir un service de qualité, dans le respect des délais et avec un souci constant du détail.",
         "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
       }
     ]

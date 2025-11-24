@@ -56,7 +56,7 @@ export default function MerciClient() {
               Nous avons bien reçu votre demande
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Notre équipe MARQUES VAZ PLACO va étudier votre projet et vous recontacter 
+              Notre équipe MONTEBAT va étudier votre projet et vous recontacter 
               dans les plus brefs délais pour établir un devis personnalisé et gratuit.
             </p>
           </motion.div>
@@ -108,9 +108,9 @@ export default function MerciClient() {
                 className="border-orange-300 text-orange-700 hover:bg-orange-100"
                 asChild
               >
-                <a href="tel:0659764995" className="flex items-center justify-center">
+                <a href="tel:0695525372" className="flex items-center justify-center">
                   <Phone className="h-4 w-4 mr-2" />
-                  06 59 76 49 95
+                  06 95 52 53 72
                 </a>
               </Button>
               <Button
@@ -118,7 +118,7 @@ export default function MerciClient() {
                 className="border-orange-300 text-orange-700 hover:bg-orange-100"
                 asChild
               >
-                <a href="mailto:amiltonvazmarques@gmail.com" className="flex items-center justify-center">
+                <a href="mailto:contact@montebat.fr" className="flex items-center justify-center">
                   <Mail className="h-4 w-4 mr-2" />
                   Email
                 </a>
@@ -148,7 +148,7 @@ export default function MerciClient() {
               className="flex-1"
               asChild
             >
-              <Link href="/services/cloisons-seches">
+              <Link href="/services/gros-oeuvre">
                 Découvrir nos services
               </Link>
             </Button>

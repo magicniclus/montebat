@@ -22,48 +22,57 @@ export default function HomeClient() {
   
   const servicesData = [
     {
-      title: "Cloisons Sèches",
-      subtitle: "Aménagement et séparation d'espaces",
-      content: "Pose de cloisons sèches en plaques de plâtre pour créer, séparer ou réorganiser vos espaces intérieurs. Solutions sur mesure avec isolation phonique et thermique.",
+      title: "Gros Œuvre",
+      subtitle: "Construction et structure",
+      content: "Réalisation de travaux de gros œuvre : fondations, murs porteurs, dalles et structures. Expertise technique pour vos projets de construction neuve et rénovation lourde.",
       image: "/placo.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
-      href: "/services/cloisons-seches"
+      href: "/services/gros-oeuvre"
     },
     {
-      title: "Doublages",
-      subtitle: "Isolation et finition murale",
-      content: "Doublage des murs pour améliorer l'isolation thermique et phonique. Pose de plaques de plâtre sur ossature métallique ou collage direct selon vos besoins.",
+      title: "Carrelage",
+      subtitle: "Revêtements sols et murs",
+      content: "Pose de carrelage pour sols et murs, intérieur et extérieur. Faïence, grès cérame, pierre naturelle. Travaux de qualité avec finitions soignées.",
       image: "/plomberie.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2",
-      href: "/services/doublages"
+      href: "/services/carrelage"
     },
     {
-      title: "Faux Plafonds",
-      subtitle: "Plafonds suspendus modernes",
-      content: "Installation de faux plafonds suspendus en plaques de plâtre. Intégration d'éclairage, amélioration de l'isolation et création de volumes sur mesure.",
+      title: "Ravalement",
+      subtitle: "Rénovation de façades",
+      content: "Ravalement de façades, nettoyage, réparation et protection des murs extérieurs. Enduits, peintures et traitements pour redonner vie à vos façades.",
       image: "/maison-work.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997",
-      href: "/services/faux-plafonds"
+      href: "/services/ravalement"
     },
     {
-      title: "Finitions Plâtrerie",
-      subtitle: "Finitions et enduits",
-      content: "Réalisation de finitions parfaites : enduits, lissage, ponçage. Préparation des surfaces pour peinture ou revêtements avec un rendu professionnel.",
+      title: "Couverture",
+      subtitle: "Toiture et étanchéité",
+      content: "Travaux de couverture : pose, réparation et rénovation de toitures. Tuiles, ardoises, zinc. Étanchéité et isolation pour une protection optimale.",
       image: "/mur.png",
       gradientFrom: "#fd7e14",
       gradientTo: "#ffc107",
-      href: "/services/finitions-platrerie"
+      href: "/services/couverture"
+    },
+    {
+      title: "Charpente",
+      subtitle: "Structure bois et métal",
+      content: "Conception et réalisation de charpentes traditionnelles et industrielles. Bois, métal, rénovation et création. Expertise technique et savoir-faire artisanal.",
+      image: "/placo.png",
+      gradientFrom: "#6f42c1",
+      gradientTo: "#e83e8c",
+      href: "/services/charpente"
     }
   ];
 
   const contactInfo = {
-    address: "Provence-Alpes-Côte d'Azur\nMarseille et environs\nRayon d'intervention : 80 km",
-    phone: "06 59 76 49 95",
-    email: "amiltonvazmarques@gmail.com",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Marseille,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
+    address: "78 - Toute la France\nIntervention nationale\nRayon d'intervention : France entière",
+    phone: "06 95 52 53 72",
+    email: "contact@montebat.fr",
+    mapEmbedUrl: "https://maps.google.com/maps?q=France&t=&z=6&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -114,7 +123,7 @@ export default function HomeClient() {
       <TeamSection config={config.team} />
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Parlons de votre projet de plâtrerie, cloisons sèches, doublages ou faux plafonds en Provence-Alpes-Côte d'Azur"
+        subtitle="Parlons de votre projet de gros œuvre, carrelage, ravalement, couverture ou charpente partout en France"
         contactInfo={contactInfo} 
       />
 

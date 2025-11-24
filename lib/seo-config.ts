@@ -14,28 +14,28 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "Neagu Ionut - Rénovation Intérieure & Plomberie en Île-de-France",
-  description: "Neagu Ionut, auto-entrepreneur spécialisé en rénovation intérieure, plomberie, salle de bain et carrelage. Devis gratuit en Île-de-France, Hauts-de-Seine.",
+  title: "MONTEBAT - Entrepreneur du Bâtiment en France",
+  description: "MONTEBAT, entrepreneur du bâtiment en France. Spécialisé en gros œuvre, carrelage, ravalement, couverture et charpente depuis 5 ans. Devis gratuit partout en France.",
   keywords: [
-    "rénovation intérieure Île-de-France",
-    "plomberie Hauts-de-Seine",
-    "salle de bain Suresnes",
-    "carrelage 92150",
-    "artisan rénovation Paris",
-    "plombier Suresnes",
-    "rénovation appartement",
-    "travaux salle de bain",
-    "pose carrelage",
-    "installation plomberie",
+    "entrepreneur bâtiment France",
+    "gros œuvre",
+    "carrelage France",
+    "ravalement façade",
+    "couverture toiture",
+    "charpente bois",
+    "travaux bâtiment",
+    "construction neuve",
+    "rénovation lourde",
     "devis gratuit",
-    "Neagu Ionut",
-    "travaux maison",
-    "rénovation BTP",
-    "auto-entrepreneur bâtiment"
+    "MONTEBAT",
+    "Jose Varela",
+    "entrepreneur qualifié",
+    "BTP France",
+    "artisan bâtiment"
   ],
-  author: "Neagu Ionut",
-  siteUrl: "https://neagu-ionut.fr",
-  siteName: "Neagu Ionut - Rénovation Intérieure",
+  author: "Jose Varela",
+  siteUrl: "https://montebat.fr",
+  siteName: "MONTEBAT - Entrepreneur du Bâtiment",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
@@ -116,50 +116,42 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "Neagu Ionut",
-  "legalName": "Neagu Ionut - Entreprise de rénovation",
+  "name": "MONTEBAT",
+  "legalName": "Montebat - Entreprise du bâtiment",
   "url": seoConfig.siteUrl,
   "logo": `${seoConfig.siteUrl}/logo.png`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
     "@type": "Person",
-    "name": "Neagu Ionut"
+    "name": "Jose Varela"
   },
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Suresnes",
-    "postalCode": "92150",
-    "addressRegion": "Île-de-France",
+    "addressLocality": "France",
+    "postalCode": "78000",
+    "addressRegion": "France",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+33758850226",
+    "telephone": "+33695525372",
     "contactType": "customer service",
-    "email": "idarenovation2022@gmail.com",
+    "email": "contact@montebat.fr",
     "availableLanguage": "French"
   },
   "areaServed": [
     {
-      "@type": "AdministrativeArea",
-      "name": "Île-de-France"
-    },
-    {
-      "@type": "AdministrativeArea", 
-      "name": "Hauts-de-Seine"
-    },
-    {
-      "@type": "City",
-      "name": "Suresnes"
+      "@type": "Country",
+      "name": "France"
     }
   ],
   "serviceType": [
-    "Rénovation intérieure",
-    "Plomberie", 
-    "Salle de bain",
-    "Carrelage",
-    "Travaux BTP"
+    "Gros œuvre",
+    "Carrelage", 
+    "Ravalement",
+    "Couverture",
+    "Charpente"
   ],
   "priceRange": "€€",
   "openingHours": "Mo-Fr 08:00-18:00",
@@ -179,22 +171,46 @@ export const servicesSchema = {
   "areaServed": organizationSchema.areaServed,
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Services de construction",
+    "name": "Services du bâtiment",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Rénovation intérieure",
-          "description": "Rénovation complète d'appartements et maisons, cloisons, sols, peinture"
+          "name": "Gros œuvre",
+          "description": "Travaux de gros œuvre : fondations, murs porteurs, dalles et structures"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Plomberie et salle de bain",
-          "description": "Installation plomberie, création salle de bain, pose carrelage"
+          "name": "Carrelage",
+          "description": "Pose de carrelage pour sols et murs, intérieur et extérieur"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Ravalement",
+          "description": "Ravalement de façades, nettoyage et protection des murs extérieurs"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Couverture",
+          "description": "Travaux de couverture : pose, réparation et rénovation de toitures"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Charpente",
+          "description": "Conception et réalisation de charpentes traditionnelles et industrielles"
         }
       }
     ]

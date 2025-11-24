@@ -19,17 +19,18 @@ export default function Navigation() {
   const [showFloatingButton, setShowFloatingButton] = useState(false);
   const [showServicesDropdown, setShowServicesDropdown] = useState(false);
   const pathname = usePathname();
-  const phoneNumber = "06 59 76 49 95";
+  const phoneNumber = "06 95 52 53 72";
 
   // Détecter si on est sur la page d'accueil
   const isHomePage = pathname === '/';
 
   // Liste des services pour le dropdown
   const servicesLinks = [
-    { name: 'Cloisons Sèches', href: '/services/cloisons-seches' },
-    { name: 'Doublages', href: '/services/doublages' },
-    { name: 'Faux Plafonds', href: '/services/faux-plafonds' },
-    { name: 'Finitions Plâtrerie', href: '/services/finitions-platrerie' },
+    { name: 'Gros Œuvre', href: '/services/gros-oeuvre' },
+    { name: 'Carrelage', href: '/services/carrelage' },
+    { name: 'Ravalement', href: '/services/ravalement' },
+    { name: 'Couverture', href: '/services/couverture' },
+    { name: 'Charpente', href: '/services/charpente' },
   ];
 
   // Navigation adaptative selon la page
@@ -100,8 +101,8 @@ export default function Navigation() {
                 />
               </motion.div>
               <div className="flex flex-col">
-                <span className="text-xl font-bold text-gray-900">MARQUES VAZ PLACO</span>
-                <span className="text-xs text-gray-600 font-medium">plaquiste professionnel</span>
+                <span className="text-xl font-bold text-gray-900">MONTEBAT</span>
+                <span className="text-xs text-gray-600 font-medium">entrepreneur du bâtiment</span>
               </div>
             </Link>
           </motion.div>
@@ -284,10 +285,10 @@ export default function Navigation() {
                 </motion.div>
                 <div className="flex flex-col">
                   <span className="text-xl font-bold text-foreground">
-                    MARQUES VAZ PLACO
+                    MONTEBAT
                   </span>
                   <span className="text-xs text-gray-400 font-medium">
-                    plaquiste professionnel
+                    entrepreneur du bâtiment
                   </span>
                 </div>
               </div>
